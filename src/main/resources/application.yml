@@ -1,0 +1,10 @@
+spring:
+  security:
+    user:
+      name: yang
+      password: 123456
+  datasource:
+    url: jdbc:mysql://192.168.2.8:3306/test?useUnicode=true&zeroDateTimeBehavior=convertToNull&characterEncoding=utf-8
+    username: root
+    password: 123456
+#    driver-class-name: com.mysql.jdbc.Driver
